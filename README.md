@@ -59,9 +59,12 @@ The first string in the parameter is the name of that portal.
 The second parameter is the parent of that portal.
 Portals can have parents or no parents; it's up to the user to decide.
 
-UserAgent UA1 = new UserAgent("UA1", one, HeadPortal); This is an example of how to create a new User-Agent. The first parameter is the name of the User-Agent. 
+UserAgent UA1 = new UserAgent("UA1", one, HeadPortal); 
+This is an example of how to create a new User-Agent. The first parameter is the name of the User-Agent. 
 The second is the User-Agents parent which is always a portal.
 The third parameter is the scope of the agent which will always be a portal.
+
+Open the dist folder and run the GroupHMiddlewareProject.jar file to run the program.
 
 -------------------------------------------------------------------------------------------
 
